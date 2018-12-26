@@ -1,0 +1,97 @@
+/********** 
+**HEADER***
+***********/
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #1f8d28 ;
+    /* border-bottom: 1px solid white; */
+}
+
+header nav {
+    background-color:    #1f8d28 ;
+}
+
+#navbar-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* Bar kiri */
+#nav-bar-left {
+    padding-left: 0px;
+}
+
+#nav-bar-left li {
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+#nav-bar-left a {
+    color: white;
+    padding-right: 8px;
+    text-align: center;
+}
+
+#nav-bar-left i {
+    color:  #ffca28 ;
+}
+
+/* Bar-Tengah */
+
+#nav-bar-middle{
+    text-decoration: none;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#navbar-container p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+/********** 
+**Section***
+***********/
+
+/* Atas */
+
+#meminjam {
+    margin-top: 40px;
+}
+
+#meminjam legend {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid #1f8d28;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+
+#save-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-color: #ffca28; 
+    color: white;
+    width: 130px;
+    height: 30px;
+}
+
+#save-button:hover {
+    background-color: orange;
+}
